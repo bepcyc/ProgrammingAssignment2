@@ -32,7 +32,7 @@ cacheSolve <- function(x) {
 
 ## you may check my code by removing comments and debugging the code below:
 
-# debug(cacheSolve)
+#debug(cacheSolve)
 ## make cache object
 #cm <- makeCacheMatrix()
 #n = 1000
@@ -43,3 +43,4 @@ cacheSolve <- function(x) {
 #inv1 <- cacheSolve(cm)
 ## this call goes into a cache
 #inv2 <- cacheSolve(cm)
+#undebug(cacheSolve)
