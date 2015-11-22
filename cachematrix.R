@@ -1,4 +1,4 @@
-## Write a short comment describing this function
+## Create a cache object which holds matrix and its inversed value 
 
 makeCacheMatrix <- function(x = matrix()) {
   cache <- NULL
@@ -15,7 +15,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Get inversed matrix either from cache if it's available or by calculating it
 
 cacheSolve <- function(x) {
   ## Return a matrix that is the inverse of 'x'
@@ -37,7 +37,7 @@ cacheSolve <- function(x) {
 #n = 1000
 ## create random inversible matrix
 #m = diag(runif(n))
-## put matrix into a cache
+## cache the matrix
 #cm$set(m)
 #inv1 <- cacheSolve(cm)
 ## this call goes into a cache
