@@ -34,7 +34,7 @@ cacheSolve <- function(x) {
 
 # debug(cacheSolve)
 ## make cache object
-#cm <- makeCacheMatrix(m)
+#cm <- makeCacheMatrix()
 #n = 1000
 ## create random inversible matrix
 #m = diag(runif(n))
@@ -43,4 +43,3 @@ cacheSolve <- function(x) {
 #inv1 <- cacheSolve(cm)
 ## this call goes into a cache
 #inv2 <- cacheSolve(cm)
-
